@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos-cont.css">
+    <link rel="stylesheet" href="./css/estilos-sesion.css">
+    <title>Tienda Virtual</title>
+</head>
+<body>
+    <nav class="menu-principal">
+        <input type="checkbox" name="btn-menu" id="btn-menu">
+        <label for="btn-menu" id="icon-menu"><img src="imgs-icons/btn-menu.png" alt="menu" width="25px"></label>
+            <ul class="cont-menu">
+                <li><a href="#">Hombre</a></li>
+                <li><a href="#">Mujer</a></li>
+                <li><a href="#">La Marca</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Registro</a></li>
+                <li><a href="./sesion.html">Iniciar Sesión</a></li>
+                <li><input type="text"></li>
+            </ul>
+    </nav>
+    <section class="container-session">
+        <form action="" class="cont-cj-sess">
+            <p class="titles-session">Iniciar sesión</p>
+            <input type="email" name="email" id="email" placeholder="Email" class="inputs-login">
+            <br>
+            <input type="password" name="password-login" id="password-login" placeholder="Contraseña" class="inputs-login">
+            <br>
+            <button type="button" class="inputs-login">Iniciar Sessión</button>
+        </form>
+        <form action="" class="cont-cj-sess">
+            <p class="titles-session">Registro</p>
+            <input type="email" name="email-account-registration" id="email-account-registration" class="inputs-login" placeholder="Email">
+            <br>
+            <input type="password" name="pass-account-registration" id="pass-account-registration" class="inputs-login" placeholder="Contraseña">
+            <br>
+            <input type="password" name="validate-pass-account-registration" id="validate-pass-account-registration" class="inputs-login" placeholder="Confirma tu contraseña">
+            <button type="button" class="inputs-login">Crear cuenta</button>
+        </form>
+    </section>
+</body>
+</html>

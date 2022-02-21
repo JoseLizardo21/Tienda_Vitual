@@ -1,0 +1,24 @@
+.banner-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#name_tienda{
+    position: absolute;
+    z-index: 0.5;
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    font-size: 4vw;
+}
+#img-port{
+    width: 100%;
+}
+.nav-polular{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(80, 76, 76);
+    border-top: solid 1px rgb(156, 151, 151);
+}
